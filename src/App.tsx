@@ -1,10 +1,9 @@
-import React from "react";
-import Counter from "./features/counter/Counter";
+import Products from './app/pages/ProductsPage';
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <Counter />
+    <div>
+      <Products />
     </div>
   );
 }
